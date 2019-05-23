@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Dog API Assignment #1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <form>
+                How many dog images would you like to retrieve (maximum of 50)?
+                <input id="numSelected" type="number" name="numDogs" required value="3" min="1" max="50">
+                <input type="submit">
+            </form>
+            <section class="dogPic"></section>
+        </div>
+        <script
+        src="http://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
